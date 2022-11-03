@@ -1,0 +1,12 @@
+algorithm twoSumFast
+  Input: an array of integers and a target integer value
+  Output: returns a vector (array of int with only 2 items) containing the two indecies of values that can be added together to create the given target value
+	  if we can't find two values we return our error result as [-1,-1]
+
+	Step 1- create a hashset that we use to store previously seen values
+	Step 2- iterate through the array and store the difference between each value and the target value, and store them into the hashset
+		Step 3/2.5 - each iteration should check to see if the hashset already contains a matching difference, and if so, move on to step 4
+	Step 4- if we have found a matching difference set, then we itterate through the array to find the index of the other value that can be combined to reach our target.
+	
+
+
