@@ -1,3 +1,6 @@
+// Matthew Prindle Homework 1
+// CSC 4520 Fall 2022
+
 import java.util.Arrays;
 
 public class HW1 {
