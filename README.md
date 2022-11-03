@@ -1,6 +1,6 @@
 # Algorithmns-Class_HW1
 
-Q1: Find Missing Number (2 points)
+## Q1: Find Missing Number
 
 Convert the following pseudocode algorithm into Java.
 
@@ -12,12 +12,13 @@ Convert the following pseudocode algorithm into Java.
   s = the sum of all numbers in A
   return (N(N+1))/2 - s
 ```
-Q2: TwoSum (Fast) (3 points)
+## Q2: TwoSum (Fast)
 
 Convert the following code into Pseudocode and put it in twosum.txt. Hint: for some loops, you should describe what it does in English. 
 
 **There are no tests for this problem, so be sure to double check and test your translation manually, similar to how we did in lecture.**
-```public static int[] twoSumFast(int[] arr, int target) {
+```
+public static int[] twoSumFast(int[] arr, int target) {
     HashSet<Integer> seen = new HashSet<>();
     for (int j = 0; j < arr.length; j++) {
       int otherAddend = target - arr[j];
@@ -36,11 +37,12 @@ Convert the following code into Pseudocode and put it in twosum.txt. Hint: for s
 ```
 
 
-Q3: countFives (2 points)
+## Q3: countFives
 
 Write countFives, which takes in an integer and returns the number of times 5 appears as a digit
 within the number. Examples:
-```  countFives(123467890) // should output 0
+```  
+  countFives(123467890) // should output 0
   countFives(555555)    // should output 6
   countFives(15354)     // should output 2
 ```
@@ -49,7 +51,7 @@ within the number. Examples:
 while, etc. is prohibited.**
 
 
-Q4: pickTrees (3 points)
+## Q4: pickTrees
 
 You build homes out of wood and you need material from a nearby forest. However, you want to
 avoid deforestation, so you decide for each tree you cut down, you'll leave its neighbors alone,
@@ -59,7 +61,7 @@ Write pickTrees, which takes in an array of N trees arr where arr[i] represents 
 you can harvest by cutting down tree i. It should return the max amount of wood you can
 harvest while following the rule of skipping neighbors
 ```
- // Pick tree 0, tree 2, and tree 4 => 1 + 3 + 5 = 9 wood total
+    // Pick tree 0, tree 2, and tree 4 => 1 + 3 + 5 = 9 wood total
     int testResult5 = pickTrees(new int[] {1, 2, 3, 4, 5});
     System.out.println(testResult5); // should output 9
 
