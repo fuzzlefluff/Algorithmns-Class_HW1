@@ -7,7 +7,6 @@ Convert the following pseudocode algorithm into Java.
 Q3: countFives (2 points)
 Write countFives, which takes in an integer and returns the number of times 5 appears as a digit
 within the number. Examples:
-
 **In order to receive full credit for this problem, you must use recursion. I.e. using =, for,
 while, etc. is prohibited.**
 
@@ -20,6 +19,5 @@ have to be careful about which trees you pick to cut down.
 Write pickTrees, which takes in an array of N trees arr where arr[i] represents how much wood
 you can harvest by cutting down tree i. It should return the max amount of wood you can
 harvest while following the rule of skipping neighbors
-
 **In order to receive full credit for this problem, you must use recursion. I.e. using =, for,
 while, etc. is prohibited**
