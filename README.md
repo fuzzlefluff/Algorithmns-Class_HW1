@@ -5,7 +5,6 @@ Convert the following pseudocode algorithm into Java.
 
 
 Q3: countFives (2 points)
-
 Write countFives, which takes in an integer and returns the number of times 5 appears as a digit
 within the number. Examples:
 
